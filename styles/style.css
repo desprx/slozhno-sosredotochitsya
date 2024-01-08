@@ -9,7 +9,7 @@
   color: var(--text-color-alt);
   font-size: var(--font-size);
   font-family: var(--font);
-  background-color: var(--text-color-alt);
+  background-color: var(--bg-color);
 }
 
 .header__theme-menu-button {
@@ -184,7 +184,7 @@
 .content__list {
   display: flex;
   grid-area: 2 / span 3;
-  gap: 20px;
+  gap: 10px;
 }
 
 .content__what {

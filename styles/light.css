@@ -5,6 +5,7 @@
 */
 
 :root.theme_light {
+  --bg-color: white;
   --color-title: #ffc2e6;
   --title-shadow: #ff0070;
   --text-color: #353430;
@@ -38,6 +39,7 @@
     background-image: url(../images/cover-image-light.png);
     background-size: cover;
     background-attachment: fixed;
+    --bg-color: white;
     --color-title: #ffc2e6;
     --title-shadow: #ff0070;
     --text-color: #353430;

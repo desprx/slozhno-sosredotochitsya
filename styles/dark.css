@@ -5,6 +5,7 @@
 */
 
 :root.theme_dark {
+  --bg-color: #000028;
   --color-text-alt: #000028;
   --color-title: #db00ff;
   --title-shadow: #ff0070;
@@ -32,6 +33,7 @@
     background-image: url(../images/cover-image-dark.png);
     background-size: cover;
     background-attachment: fixed;
+    --bg-color: #000028;
     --color-text-alt: #000028;
     --color-title: #db00ff;
     --title-shadow: #ff0070;
