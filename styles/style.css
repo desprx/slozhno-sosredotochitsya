@@ -97,7 +97,7 @@
 
 .text__decor {
   background-color: var(--text-color-alt);
-  color: var(--color-text-alt);
+  color: var(--color-content-title);
   font-size: var(--font-size);
   font-weight: var(--font-weight);
   font-family: var(--font);
@@ -193,9 +193,9 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.content__title-h2 {
+/* .content__title-h2 {
   grid-area: span 1 / 1;
-}
+} */
 
 .content__as {
   margin-top: 106px;
@@ -255,6 +255,11 @@
 .content__gallery-img:nth-child(5) {
   grid-area: 3 / 2 / 4 / 4;
 }
+
+.text__title-color {
+  color: var(--color-text-alt);
+}
+
 /* футер */
 .footer {
   position: relative;
