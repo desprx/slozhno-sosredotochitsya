@@ -16,16 +16,18 @@
   background-color: transparent;
   border: 0;
   text-transform: lowercase;
+  color: var(--title-color);
+  text-align: center;
 }
 
 .header__theme-menu-button_active {
   padding: 1px 15px;
-  border: 1px solid var(--color-content-title);
+  border: 1px solid var(--title-color);
   pointer-events: none;
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--color-content-title);
+  border: 1px solid var(--title-color);
 }
 
 .header {
@@ -37,7 +39,7 @@
 }
 
 .header__theme-menu {
-  color: var(--color-content-title);
+  color: var(---color-content-title);
   grid-area: 1 / span 2;
 }
 
@@ -80,8 +82,8 @@
   right: 20px;
   width: 25px;
   height: 25px;
-  border-top: 1px solid var(--color-content-title);
-  border-right: 1px solid var(--color-content-title);
+  border-top: 1px solid var(--title-color);
+  border-right: 1px solid var(--title-color);
 }
 
 .decorated::after {
@@ -91,8 +93,8 @@
   left: 20px;
   width: 25px;
   height: 25px;
-  border-bottom: 1px solid var(--color-content-title);
-  border-left: 1px solid var(--color-content-title);
+  border-bottom: 1px solid var(--title-color);
+  border-left: 1px solid var(--title-color);
 }
 
 .text__decor {
@@ -193,9 +195,9 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-/* .content__title-h2 {
-  grid-area: span 1 / 1;
-} */
+.content__title-h2 {
+  color: var(--title-color);
+}
 
 .content__as {
   margin-top: 106px;

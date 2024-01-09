@@ -11,6 +11,8 @@
   --title-shadow: #ff0070;
   --text-color-alt: #ff0070;
   --color-content-title: #000028;
+  --text-color: #f1b2ce;
+  --title-color: #ff0070;
 }
 
 .page.theme_dark {
@@ -26,6 +28,7 @@
   --title-shadow: #ff0070;
   --text-color-alt: #ff0070;
   --color-content-title: #000028;
+  --title-color: #ff0070;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -39,5 +42,6 @@
     --title-shadow: #ff0070;
     --text-color-alt: #ff0070;
     --color-content-title: #ff0070;
+    --title-color: #ff0070;
   }
 }
