@@ -26,6 +26,13 @@
   --text-color-alt: #ffc2e6;
   --color-content-title: #353430;
   --title-color: #353430;
+
+  --bg-color: white;
+  --color-title: #ffc2e6;
+  --title-shadow: #ff0070;
+  --text-color: #353430;
+  --text-color-alt: #ffc2e6;
+  --title-color: #353430;
 }
 
 .theme_light .decorated-zone {
@@ -47,6 +54,13 @@
     --text-color: #353430;
     --text-color-alt: #ffc2e6;
     --color-content-title: #353430;
+    --title-color: #353430;
+
+    --bg-color: white;
+    --color-title: #ffc2e6;
+    --title-shadow: #ff0070;
+    --text-color: #353430;
+    --text-color-alt: #ffc2e6;
     --title-color: #353430;
   }
 

@@ -23,11 +23,14 @@
   background-image: url(../images/cover-image-dark.png);
   background-size: cover;
   background-attachment: fixed;
+
+  --bg-color: #000028;
   --color-text-alt: #000028;
   --color-title: #db00ff;
   --title-shadow: #ff0070;
   --text-color-alt: #ff0070;
   --color-content-title: #000028;
+  --text-color: #f1b2ce;
   --title-color: #ff0070;
 }
 
@@ -41,7 +44,8 @@
     --color-title: #db00ff;
     --title-shadow: #ff0070;
     --text-color-alt: #ff0070;
-    --color-content-title: #ff0070;
+    --color-content-title: #000028;
+    --text-color: #f1b2ce;
     --title-color: #ff0070;
   }
 }
