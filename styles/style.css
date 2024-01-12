@@ -156,7 +156,7 @@
 /* content */
 
 .content {
-  margin: 40px 20px;
+  margin: 58px 20px;
 }
 .content__why {
   margin: 60px 0;
@@ -278,7 +278,7 @@
 }
 
 .text__title-color {
-  color: var(--color-text-alt);
+  color: var(--title-color-ligth);
 }
 
 /* футер */

@@ -11,6 +11,7 @@
   --text-color: #353430;
   --text-color-alt: #ffc2e6;
   --title-color: #353430;
+  --title-color-ligth: #353430;
 }
 
 .page.theme_light {
@@ -59,6 +60,7 @@
     --text-color-alt: #ffc2e6;
     --title-color: #353430;
     --button-hover-color: rgba(50, 49, 45, 0.4);
+    --title-color-ligth: #353430;
   }
 
   .decorated-zone {
